@@ -10,6 +10,7 @@
     <h2>Lista de Pokemons</h2>
 
 <%--    dataGrivView no reconoce todos los atributos de Pokemon, es preferible agregarlos uno por uno--%>
+<%--    LISTADO CON STORED PRODECURE--%>
     <asp:GridView ID="dgvPokemon1" runat="server" CssClass="table" AutoGenerateColumns="false">
         <Columns> 
             <asp:BoundField HeaderText="Nombre" DataField="Nombre" /> 
